@@ -6,7 +6,7 @@ import Service from '../Service/Service';
 
 const Services = () => {
     const [services] = useServices();
-    console.log(services);
+    // console.log(services);
     return (
         <div className="services-section my-4">
             <Container>

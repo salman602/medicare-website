@@ -3,96 +3,108 @@
         "id": "1",
         "name": "Intensive Care",
         "price": 200,
-        "description": "Intensive care medicine, is a medical specialty that deals with seriously or critically ill patients who have, are at risk of, or are recovering from conditions that may be life-threatening.",
+        "description": "Intensive care medicine, is a medical specialty that deals with seriously or critically ill patients who have, are at risk of, or are recovering from conditions that may be life-threatening.For patients healthy enough to be treated in general hospital wards, going to the ICU can be bothersome, painful and potentially dangerous.",
         "img": "https://i.ibb.co/hDWPGTw/service-1.png",
-        "button_text": "7th Floor, ICU"
+        "button_text": "Get Appointment in ICU",
+        "destination": "7th Floor, ICU"
     },
     {
         "id": "2",
         "name": "Blood Pressure Test",
         "price": 20,
-        "description": "A normal blood pressure level is less than 120/80 mmHg. No matter your age, you can take steps each day to keep your blood pressure in a healthy range.",
+        "description": "A normal blood pressure level is less than 120/80 mmHg. No matter your age, you can take steps each day to keep your blood pressure in a healthy range. If you get a blood pressure reading of 180/110 or higher more than once, seek medical treatment right away. A reading this high is considered “hypertensive crisis",
         "img": "https://i.ibb.co/GQqyWLj/service-2.png",
-        "button_text": "2nd Floor, Room-204"
+        "button_text": "Get Appointment in Genaral",
+        "destination": "2nd Floor, Room-204"
     },
     {
         "id": "3",
         "name": "Infectious Disease",
         "price": 50,
-        "description": "Infectious diseases are disorders caused by organisms — such as bacteria, viruses, fungi or parasites. Many organisms live in and on our bodies.They are normally harmless or even helpful.",
+        "description": "Infectious diseases are disorders caused by organisms — such as bacteria, viruses, fungi. Perhaps the most notorious of all infectious diseases, the bubonic and pneumonic plagues are believed to be the cause of the Black Death that rampaged through Asia, Europe and Africa in the 14th century killing an estimated 50 million people.",
         "img": "https://i.ibb.co/FBWH3dX/service-3.png",
-        "button_text": "3rd Floor, ID"
+        "button_text": "Get Appointment in ID",
+        "destination": "3rd Floor, ID"
     },
     {
         "id": "4",
         "name": "Lung Cancer",
         "price": 250,
-        "description": "Lung cancer is the leading cancer killer in both men and women in the U.S. In 1987, it surpassed breast cancer to become the leading cause of cancer deaths in women.",
+        "description": "Lung cancer is the leading cancer killer in both men and women in the U.S. In 1987, it surpassed breast cancer to become the leading cause of cancer deaths in women. An estimated 154,050 Americans are expected to die from lung cancer in 2018, accounting for approximately 25 percent of all cancer deaths.",
         "img": "https://i.ibb.co/Fmp7dGn/service-4.png",
-        "button_text": "11th Floor, Cancer unit"
+        "button_text": "Get Appointment in LC",
+        "destination": "11th Floor, Cancer unit"
     },
     {
         "id": "5",
         "name": "Endocrinology",
         "price": 120,
-        "description": "Endocrinology is the study of hormones. Hormones are essential for our every-day survival. They control our temperature, sleep, mood, stress, growth and more.",
+        "description": "Endocrinology is the study of hormones. Hormones are essential for our every-day survival. Endocrinologists are qualified to diagnose and treat conditions like diabetes, thyroid diseases, infertility, growth issues and disorders in the hormone-producing adrenal glands and pituitary glands.",
         "img": "https://i.ibb.co/WPR53n3/service-5.png",
-        "button_text": "5th Floor, Medicine"
+        "button_text": "Get Appointment in Endo",
+        "destination": "5th Floor, Medicine"
     },
     {
         "id": "6",
         "name": "Orthopedics",
         "price": 150,
-        "description": "As orthopedic surgeons, orthopedic spine doctors concentrate primarily on repairing problems of the cervical, thoracic, and lumbar spinal anatomy.",
+        "description": "As orthopedic surgeons, orthopedic spine doctors concentrate primarily on repairing problems of the cervical, thoracic, and lumbar spinal anatomy.Orthopedic surgeons are doctors who specialize in the musculoskeletal system - the bones, joints, ligaments, tendons, and muscles that are so essential to movement and everyday life.",
         "img": "https://i.ibb.co/RN3L9cY/service-6.png",
-        "button_text": "6th Floor, OPD"
+        "button_text": "Get Appointment in OPD",
+        "destination": "6th Floor, OPD"
     },
     {
         "id": "7",
         "name": "Sarcoma",
         "price": 180,
-        "description": "A type of cancer that begins in bone or in the soft tissues of the body, including cartilage, fat, muscle, blood vessels, fibrous tissue, or other connective or supportive tissue.",
+        "description": "A type of cancer that begins in bone or in the soft tissues of the body, including cartilage, fat, muscle, blood vessels, fibrous tissue, or other connective or supportive tissue.A sarcoma is a type of cancer that starts in tissues like bone or muscle. Bone and soft tissue sarcomas are the main types of sarcoma.",
         "img": "https://i.ibb.co/3T4nZvb/service-7.png",
-        "button_text": "11th Floor, Cancer Unit"
+        "button_text": "Get Appointment in Sarcoma",
+        "destination": "11th Floor, Cancer Unit"
     },
     {
         "id": "8",
         "name": "Surgery",
         "price": 230,
-        "description": "Surgery is a medical or dental specialty that uses operative manual and instrumental techniques on a person to investigate or treat a pathological condition such as a disease or injury.",
+        "description": "Surgery is a medical or dental specialty that uses operative manual and instrumental techniques on a person to investigate or treat a pathological condition such as a disease or injury, to help improve bodily function, appearance, or to repair unwanted ruptured areas.",
         "img": "https://i.ibb.co/svSV67c/service-8.png",
-        "button_text": "8th Floor, Room-806"
+        "button_text": "Get Appointment for Surgery",
+        "destination": "8th Floor, Room-806"
     },
     {
         "id": "9",
         "name": "Transplant Services",
         "price": 210,
-        "description": "Transplantation is a procedure that is done to replace one of your organs with a healthy one from someone else. The surgery is only one part of a complex, long-term process.",
+        "description": "Transplantation is a procedure that is done to replace one of your organs with a healthy one from someone else. The surgery is only one part of a complex, long-term process. Several experts will help you prepare for the procedure, and make sure you are comfortable before, during, and after surgery.",
         "img": "https://i.ibb.co/4jnjrNR/service-9.png",
-        "button_text": "8th Floor, Room-802"
+        "button_text": "Get Appointment in transplant",
+        "destination": "8th Floor, Room-802"
     },
     {
         "id": "10",
         "name": "Oncology",
         "price": 180,
-        "description": "Gynecologic oncology is a specialized field of medicine that focuses on cancers of the female reproductive system, including ovarian cancer, uterine cancer, vaginal cancer, cervical cancer, and vulvar cancer.",
+        "description": "Oncology is the study of cancer. An oncologist is a doctor who treats cancer and provides medical care for a person diagnosed with cancer. The field of oncology has 3 major areas based on treatments: medical oncology, radiation oncology, and surgical oncology",
         "img": "https://i.ibb.co/4JmDP8R/service-10.png",
-        "button_text": "2nd Floor, Room-205"
+        "button_text": "Get Appointment in Medicine",
+        "destination": "2nd Floor, Room-205"
     },
     {
         "id": "11",
         "name": "Blood Pressure",
         "price": 40,
-        "description": "Blood pressure is measured in millimeters of mercury (mm Hg). A blood pressure measurement has two numbers: The top number (systolic) is the pressure of the blood flow when your heart muscle contracts, pumping blood. ",
+        "description": "Blood pressure is measured in millimeters of mercury (mm Hg). A blood pressure measurement has two numbers: The top number (systolic) is the pressure of the blood flow when your heart muscle contracts, pumping blood. If you get a blood pressure reading of 180/110 or higher more than once, seek medical treatment right away. ",
         "img": "https://i.ibb.co/Xtcgc6g/service-11.png",
-        "button_text": "2nd Floor, Room-203"
+        "button_text": "Get Appointment in Genaral",
+        "destination": "2nd Floor, Room-203"
     },
     {
         "id": "12",
         "name": "Diabetology",
         "price": 30,
-        "description": "Endocrinologists and diabetologists (ED) are medical doctors who investigate, diagnose and treat disorders of the endocrine system.",
+        "description": "Endocrinologists and diabetologists (ED) are medical doctors who investigate, diagnose and treat disorders of the endocrine system. This page provides useful information on the nature of the work, the common procedures/interventions, sub-specialties and other roles that may interest you.",
         "img": "https://i.ibb.co/4jqKBjj/service-12.png",
-        "button_text": "3rd Floor, Room-302"
+        "button_text": "Get Appointment in Diabetic",
+        "destination": "3rd Floor, Room-302"
     }
 ]

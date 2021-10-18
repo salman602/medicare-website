@@ -1,6 +1,7 @@
 import React from 'react';
 import './Service.css'
 import { Card, Col, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Service = ({ service }) => {
     const { id, name, img, price, description, button_text } = service;
@@ -14,7 +15,9 @@ const Service = ({ service }) => {
                     <Card.Text>
                         {description.slice(0, 62)}
                     </Card.Text>
-                    <Button className="service-btn mx-auto" variant="outline-danger">{button_text}</Button>
+                    <Link to={`/service/${id}`}>
+                        <Button className="service-btn mx-auto" variant="outline-danger">{button_text}</Button>
+                    </Link>
                 </Card.Body>
 
             </Card>
