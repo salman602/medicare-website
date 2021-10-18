@@ -17,7 +17,7 @@ const Header = () => {
                         className="d-inline-block align-top"
                         alt="Medical Care logo"
                     />
-                    <span className="fw-bold text-dark">Medical Care</span>
+                    <span className="text-dark">Medi Care</span>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
