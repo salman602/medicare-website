@@ -41,7 +41,7 @@
     },
     {
         "id": "6",
-        "name": "Orthopedics and spine",
+        "name": "Orthopedics",
         "price": 150,
         "description": "As orthopedic surgeons, orthopedic spine doctors concentrate primarily on repairing problems of the cervical, thoracic, and lumbar spinal anatomy.",
         "img": "https://i.ibb.co/RN3L9cY/service-6.png",
@@ -73,7 +73,7 @@
     },
     {
         "id": "10",
-        "name": "Gynecologic Oncology",
+        "name": "Oncology",
         "price": 180,
         "description": "Gynecologic oncology is a specialized field of medicine that focuses on cancers of the female reproductive system, including ovarian cancer, uterine cancer, vaginal cancer, cervical cancer, and vulvar cancer.",
         "img": "https://i.ibb.co/4JmDP8R/service-10.png",

@@ -1,0 +1,11 @@
+.service-card{
+    transition: 0.5s;
+}
+
+.service-card:hover{
+    box-shadow: 0.8px 1px 4px 2px lightgray;
+}
+
+.service-btn{
+    font-size: 0.7rem;
+}
