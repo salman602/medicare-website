@@ -10,7 +10,7 @@ const Header = () => {
     const { user, logOut } = useFirebase();
 
     return (
-        <Navbar sticky="top" className="py-0" collapseOnSelect expand="lg" bg="white" variant="info">
+        <Navbar sticky="top" className="py-0" collapseOnSelect expand="md" bg="white" variant="info">
             <Container>
                 <Navbar.Brand className="d-flex justify-content-center align-items-center" href="#home">
                     <img
@@ -22,13 +22,13 @@ const Header = () => {
                     />
                     <span className="text-dark">Medi Care</span>
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Toggle style={{ color: 'black' }} aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto">
                         <HashLink className="menu-item" to="/home">Home</HashLink>
                         <HashLink className="menu-item" to="/about#about">About</HashLink>
-                        <HashLink className="menu-item" to="/services#services">Services</HashLink>
-                        <HashLink className="menu-item" to="/doctors#doctors">Doctors</HashLink>
+                        <HashLink className="menu-item" to="/home#services">Services</HashLink>
+                        <HashLink className="menu-item" to="/home#doctors">Doctors</HashLink>
                         <HashLink className="menu-item" to="/news#news">News</HashLink>
                     </Nav>
                     <Nav>

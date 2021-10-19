@@ -8,7 +8,7 @@ const Services = () => {
     const [services] = useServices();
     // console.log(services);
     return (
-        <div className="services-section my-4">
+        <div id="services" className="services-section my-4">
             <Container>
                 <h3 className="text-center">
                     Medical Services

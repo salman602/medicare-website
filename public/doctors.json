@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "name": "Dr. Robert Daowny",
+        "designation": "Cardiology Specialist",
+        "button_text": "7th Floor, Room-703",
+        "img": "https://i.ibb.co/800mZPJ/doctor-1.png"
+    },
+    {
+        "id": "2",
+        "name": "Dr. Kristina Castle",
+        "designation": "Surgon",
+        "button_text": "2nd Floor, Room-204",
+        "img": "https://i.ibb.co/VptNnrV/doctor-2.png"
+    },
+    {
+        "id": "3",
+        "name": "Dr. Helen Wilmore",
+        "designation": "Pediatrician",
+        "button_text": "3rd Floor, Room-305",
+        "img": "https://i.ibb.co/FqtZnSy/doctor-3.png"
+    },
+    {
+        "id": "4",
+        "name": "Dr. Anthony Wills",
+        "designation": "Dermatologist",
+        "button_text": "4th Floor, Room-409",
+        "img": "https://i.ibb.co/y88Hj67/doctor-4.png"
+    }
+]
