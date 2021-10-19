@@ -6,7 +6,7 @@ import Doctor from '../Doctor/Doctor';
 const Doctors = () => {
     const [doctors] = useDoctors([]);
     return (
-        <div className="my-4" id="doctors">
+        <div className="my-4 bg-white" id="doctors">
             <Container>
                 <h3 className="text-center">Meet Our Doctors</h3>
                 <Row xs={2} md={4} className="gx-5 gy-4 mt-2">

@@ -8,12 +8,12 @@ const Services = () => {
     const [services] = useServices();
     // console.log(services);
     return (
-        <div id="services" className="services-section my-4">
+        <div id="services" className="services-section py-4">
             <Container>
                 <h3 className="text-center">
                     Medical Services
                 </h3>
-                <Row xs={2} sm={3} md={4} className="gx-5 gy-4 mt-2">
+                <Row xs={2} md={4} className="gx-5 gy-4 mt-2">
                     {
                         services.map(service => <Service
                             key={service.id}

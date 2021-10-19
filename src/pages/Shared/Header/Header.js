@@ -29,7 +29,7 @@ const Header = () => {
                         <HashLink className="menu-item" to="/about#about">About</HashLink>
                         <HashLink className="menu-item" to="/home#services">Services</HashLink>
                         <HashLink className="menu-item" to="/home#doctors">Doctors</HashLink>
-                        <HashLink className="menu-item" to="/news#news">News</HashLink>
+                        <HashLink className="menu-item" to="/home#news">News</HashLink>
                     </Nav>
                     <Nav>
                         <NavLink to="/signup" className="mx-2">
