@@ -7,15 +7,16 @@ import useFirebase from '../../hooks/useFirebase';
 // import useAuth from '../../hooks/useAuth';
 
 const SignUp = () => {
-    const { handleEmail, handlePassword, handleSignUp } = useFirebase();
+    const { handleDisplayName, handleEmail, handlePassword, handleSignUp } = useFirebase();
     return (
         <div className="signup-section pt-2">
             <div className="d-flex justify-content-center align-items-center">
                 <div>
                     <img className="mb-4 d-block mx-auto" src={logo} alt="" width="60" height="60" />
-                    <Form onSubmit={handleSignUp}>
+                    <Form>
                         <Form.Floating className="mb-3">
                             <Form.Control
+                                onBlur={handleDisplayName}
                                 id="floatingInputName"
                                 type="text"
                                 placeholder="Full name" />
@@ -39,16 +40,7 @@ const SignUp = () => {
                             />
                             <label htmlFor="floatingPasswordCustom">Password</label>
                         </Form.Floating>
-                        <Form.Floating>
-                            <Form.Control
-                                className="mt-3"
-                                id="floatingPasswordCustom"
-                                type="password"
-                                placeholder="Password"
-                            />
-                            <label htmlFor="floatingPasswordCustom">Confirm Password</label>
-                        </Form.Floating>
-                        <Button className="w-100 mt-3" variant="danger" type="submit">
+                        <Button onClick={handleSignUp} className="w-100 mt-3" variant="danger" type="submit">
                             Submit
                         </Button>
                     </Form>

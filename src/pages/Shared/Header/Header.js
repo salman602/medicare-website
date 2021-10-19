@@ -8,7 +8,7 @@ import useFirebase from '../../../hooks/useFirebase';
 
 const Header = () => {
     const { user, logOut } = useFirebase();
-    console.log(user?.photoURL);
+
     return (
         <Navbar sticky="top" className="py-0" collapseOnSelect expand="lg" bg="white" variant="info">
             <Container>
@@ -32,11 +32,10 @@ const Header = () => {
                         <HashLink className="menu-item" to="/news#news">News</HashLink>
                     </Nav>
                     <Nav>
-
                         <NavLink to="/signup" className="mx-2">
                             <Button className="btn btn-info bg-transparent rounded-pill">Sign up</Button>
                         </NavLink>
-                        {user?.email ? <NavLink to="/login">
+                        {user?.displayName ? <NavLink to="/login">
                             <Button onClick={logOut} className="btn btn-danger rounded-pill">Logout</Button>
                             <img className="rounded-circle ms-1"
                                 src={user?.photoURL} alt="" width="40" height="40" />

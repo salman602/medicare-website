@@ -1,4 +1,4 @@
-import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, signOut, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
+import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, signOut, createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { useState, useEffect } from "react";
 import firebaseInitializer from "../Firebase/firebase.init";
 
@@ -12,10 +12,13 @@ const useFirebase = () => {
     const auth = getAuth();
 
     // Email/ password sign in method
+    const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
-
+    const handleDisplayName = (e) => {
+        setName(e.target.value);
+    };
     const handleEmail = (e) => {
         setEmail(e.target.value)
     };
@@ -25,24 +28,31 @@ const useFirebase = () => {
 
     const handleSignUp = (e) => {
         e.preventDefault()
-        console.log(email, password);
+
+        // password validation
         if (password.length < 8) {
             setError('Password must be at least 8 charecter long.');
             return;
         };
-
         registerNewUser(email, password);
-
-
     };
 
     const registerNewUser = (email, password) => {
         createUserWithEmailAndPassword(auth, email, password)
             .then(result => {
-                // const user = result.user;
-                // console.log(user);
+                updateUserInfo();
             })
             .catch(err => setError(err.message));
+    }
+
+    // update user information (set user's displayName)
+    const updateUserInfo = () => {
+        updateProfile(auth.currentUser, {
+            displayName: name,
+        }).then(() => { })
+            .catch((error) => {
+                setError(error.message)
+            });
     }
 
     const signInUsingEmailAndPassword = () => {
@@ -50,7 +60,8 @@ const useFirebase = () => {
             .then(result => {
                 setUser(result.user)
             })
-            .catch(err => setError(err.message));
+            .catch(err => setError(err.message))
+
     };
 
     // google sign in method
@@ -65,14 +76,20 @@ const useFirebase = () => {
             .catch(error => setError(error.message))
     };
 
+    // observe if user state is changed
     useEffect(() => {
-        onAuthStateChanged(auth, (user) => {
+        const unSubscribe = onAuthStateChanged(auth, (user) => {
             if (user) {
                 setUser(user);
             }
+            else {
+                setUser({})
+            }
         })
-    }, []);
+        return () => unSubscribe;
+    }, [auth]);
 
+    // implement logout 
     const logOut = () => {
         signOut(auth).then(() => {
             setUser({})
@@ -85,6 +102,7 @@ const useFirebase = () => {
         error,
         signInUsingGoogle,
         logOut,
+        handleDisplayName,
         handleEmail,
         handlePassword,
         handleSignUp,
