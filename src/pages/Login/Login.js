@@ -5,15 +5,12 @@ import googleIcon from '../../images/icons/google.png';
 import twitterIcon from '../../images/icons/twitter.png';
 import './Login.css';
 import { NavLink } from 'react-router-dom';
-import useFirebase from '../../hooks/useFirebase';
 import logo from '../../images/logo.png';
+import useAuth from '../../hooks/useAuth';
 
 
 const Login = () => {
-    // const fbIcon = <FontAwesomeIcon icon={faFacebook} />
-    // const googleIcon = <FontAwesomeIcon icon={faGoogle} />
-    // const twitterIcon = <FontAwesomeIcon icon={faTwitter} />
-    const { signInUsingGoogle, signInUsingEmailAndPassword } = useFirebase();
+    const { signInUsingGoogle, signInUsingEmailAndPassword } = useAuth();
     return (
         <div className="login-section pt-2">
             <div className="d-flex justify-content-center align-items-center">

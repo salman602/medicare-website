@@ -3,11 +3,11 @@ import { Form, Button } from 'react-bootstrap';
 import './SignUp.css';
 import logo from '../../images/logo.png';
 import { NavLink } from 'react-router-dom';
-import useFirebase from '../../hooks/useFirebase';
-// import useAuth from '../../hooks/useAuth';
+import useAuth from '../../hooks/useAuth';
+
 
 const SignUp = () => {
-    const { handleDisplayName, handleEmail, handlePassword, handleSignUp } = useFirebase();
+    const { handleDisplayName, handleEmail, handlePassword, handleSignUp } = useAuth();
     return (
         <div className="signup-section pt-2">
             <div className="d-flex justify-content-center align-items-center">

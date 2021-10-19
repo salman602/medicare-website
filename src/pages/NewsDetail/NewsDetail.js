@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { useParams } from 'react-router';
 import useNews from '../../hooks/useNews';
+import './NewsDetail.css'
 
 const NewsDetail = () => {
     const [news] = useNews();
@@ -13,14 +14,14 @@ const NewsDetail = () => {
     }, [news, newsId]);
     console.log('from news', singleNews);
     return (
-        <div className="">
+        <div className="bg-light">
             <Container className="py-4">
                 <Row className="p-3 service-detail">
                     <Col className="d-flex align-items-center" xs={2} md={4}>
                         <img className="img-fluid" src={singleNews?.img} alt="" />
                     </Col>
                     <Col xs={10} md={8}>
-                        <h3>Name: {singleNews?.title}</h3>
+                        <h3>{singleNews?.title}</h3>
                         <p><b>Description :</b> {singleNews?.description}</p>
                     </Col>
                 </Row>

@@ -3,28 +3,36 @@
         "id": "1",
         "name": "Dr. Robert Daowny",
         "designation": "Cardiology Specialist",
-        "button_text": "7th Floor, Room-703",
+        "university": "University of Calgary.",
+        "about": "Efficiently myocardinate market-driven innovation via open-source alignments. Dramatically engage high-Phosfluorescently expedite impactful supply chains via focused results. Holistically . Compellingly supply just in time catalysts for change through..",
+        "room_No": "7th Floor, Room-703",
         "img": "https://i.ibb.co/800mZPJ/doctor-1.png"
     },
     {
         "id": "2",
         "name": "Dr. Kristina Castle",
         "designation": "Surgon",
-        "button_text": "2nd Floor, Room-204",
+        "university": "McMaster University.",
+        "about": "Following the graduation Dr. Kristina Castle's first clinical exposure to the management of cancer was at the St. George’s University Hospital in London. Subsequently he undertook basic and then advanced training in medical oncology at the Royal Brisbane and Women’s Hospital in Queensland. He completed his fellowship in 2014. During this time he also gained experience in palliative care.",
+        "room_No": "2nd Floor, Room-204",
         "img": "https://i.ibb.co/VptNnrV/doctor-2.png"
     },
     {
         "id": "3",
         "name": "Dr. Helen Wilmore",
         "designation": "Pediatrician",
-        "button_text": "3rd Floor, Room-305",
+        "university": "University of British Columbia.",
+        "about": "After graduating from West Virginia University Medical School, Dr. Jonathon Alex completed a two-year fellowship in sports medicine at Akron Children’s Hospital. During his training at Akron, Dr. Jonathon Alex was team physician for the University of Akron and Walsh University.",
+        "room_No": "3rd Floor, Room-305",
         "img": "https://i.ibb.co/FqtZnSy/doctor-3.png"
     },
     {
         "id": "4",
         "name": "Dr. Anthony Wills",
         "designation": "Dermatologist",
-        "button_text": "4th Floor, Room-409",
+        "university": "University of Ottawa.",
+        "about": "Dr. Anthony Wills presented his research at the Annual European Neuroendocrine conference in Barcelona in 2015 detailing the survival outcomes of metastatic neuroendocrine tumours in Queensland after treatment with Lutate-177. He also has done extensive research comparing outcomes of lung cancer management between regional and metropolitan centres in Australia.",
+        "room_No": "4th Floor, Room-409",
         "img": "https://i.ibb.co/y88Hj67/doctor-4.png"
     }
 ]
