@@ -6,6 +6,7 @@ import DoctorDetails from './pages/DoctorDetails/DoctorDetails';
 import Home from './pages/Home/Home/Home';
 import Login from './pages/Login/Login';
 import NewsDetail from './pages/NewsDetail/NewsDetail';
+import NotFound from './pages/NotFound/NotFound';
 import PrivateRoute from './pages/PrivateRoute/PrivateRoute';
 import ServiceDetail from './pages/ServiceDetail/ServiceDetail';
 import Footer from './pages/Shared/Footer/Footer';
@@ -39,6 +40,9 @@ function App() {
             </PrivateRoute>
             <Route path="/news/:newsId">
               <NewsDetail></NewsDetail>
+            </Route>
+            <Route path="*">
+              <NotFound></NotFound>
             </Route>
           </Switch>
           <Footer />
