@@ -12,7 +12,7 @@ const Header = () => {
     return (
         <Navbar sticky="top" className="py-0" collapseOnSelect expand="md" bg="white" variant="info">
             <Container>
-                <Navbar.Brand className="d-flex justify-content-center align-items-center" href="#home">
+                <Navbar.Brand className="d-flex justify-content-center align-items-center" href="/">
                     <img
                         src={logo}
                         width="60"
@@ -26,7 +26,7 @@ const Header = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto">
                         <HashLink className="menu-item" to="/home">Home</HashLink>
-                        <HashLink className="menu-item" to="/about#about">About</HashLink>
+                        <HashLink className="menu-item" to="/about">About</HashLink>
                         <HashLink className="menu-item" to="/home#services">Services</HashLink>
                         <HashLink className="menu-item" to="/home#doctors">Doctors</HashLink>
                         <HashLink className="menu-item" to="/home#news">News</HashLink>

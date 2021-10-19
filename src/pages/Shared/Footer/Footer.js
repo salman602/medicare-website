@@ -84,7 +84,7 @@ const Footer = () => {
                     <Col xs={6} md={3}>
                         <h5 className="mb-3">Contact Details</h5>
                         <div className="text-white-50">
-                            <h6 className="">250 Main Street, Dhanmondi 27, Dhaka, BD</h6>
+                            <h6 className="">House# 16, Road# 16 Old 27/ Genetic Palaza Dhanmondi, Dhaka, 1209</h6>
                             <p className="text-info">{phoneIcon}
                                 <span className="text-white-50"> tell: 123-456-789</span>
                             </p>

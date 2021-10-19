@@ -26,9 +26,9 @@ const ServiceDetail = () => {
                     </Col>
                     <Col xs={4} md={6}>
                         <h3>Name: {singleService?.name}</h3>
-                        <h5>Price: ${singleService?.price}</h5>
+                        <h4>Price: ${singleService?.price}</h4>
                         <p>Description: {singleService?.description}</p>
-                        <h6>Destination: {singleService?.destination}</h6>
+                        <h5>Destination: {singleService?.destination}</h5>
                         <Button variant="info">Book Appointment</Button>
                     </Col>
                 </Row>
