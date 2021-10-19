@@ -36,9 +36,6 @@ const Banner = () => {
                         src={banner2}
                         alt="Second slide"
                     />
-
-                    <Carousel.Caption>
-                    </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
@@ -46,9 +43,6 @@ const Banner = () => {
                         src={banner3}
                         alt="Third slide"
                     />
-
-                    <Carousel.Caption>
-                    </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
@@ -56,7 +50,6 @@ const Banner = () => {
                         src={banner4}
                         alt="Fourth slide"
                     />
-
                     <Carousel.Caption>
                         <Container>
                             <Row>
@@ -67,7 +60,6 @@ const Banner = () => {
                                     <Button variant="danger" className="btn text-white rounded-2 me-2">Our Departments</Button>
                                     <Button variant="info" className="btn text-black rounded-2 ms-2">Our Doctors</Button>
                                 </Col>
-
                             </Row>
                         </Container>
                     </Carousel.Caption>

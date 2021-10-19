@@ -8,6 +8,7 @@ const Doctor = ({ doctor }) => {
         <Col>
             <Card className="h-100 border-0 p-2 service-card">
                 <Card.Img variant="top" src={img} />
+
                 <Card.Body className="px-0 text-center">
                     <Card.Title>{name}</Card.Title>
                     <Card.Subtitle className="mb-2">{designation}</Card.Subtitle>

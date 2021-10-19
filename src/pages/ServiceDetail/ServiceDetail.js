@@ -8,15 +8,12 @@ const ServiceDetail = () => {
     const [singleService, setSingleService] = useState({});
     const { serviceId } = useParams();
     const [services] = useServices();
-    // console.log(services);
 
     useEffect(() => {
         const filteredService = services.filter(service => service?.id === serviceId);
         setSingleService(filteredService[0])
     }, [services, serviceId]);
 
-    console.log(singleService);
-    // const { name, img, description, price } = singleService;
     return (
         <div className="service-detail-section">
             <Container className="py-4">

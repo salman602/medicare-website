@@ -6,7 +6,6 @@ import Service from '../Service/Service';
 
 const Services = () => {
     const [services] = useServices();
-    // console.log(services);
     return (
         <div id="services" className="services-section py-4">
             <Container>

@@ -6,7 +6,6 @@ const useDoctors = () => {
         fetch('/doctors.json')
             .then(res => res.json())
             .then(data => setDoctors(data))
-
     }, []);
     return [doctors]
 };

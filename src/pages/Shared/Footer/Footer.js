@@ -13,6 +13,7 @@ const Footer = () => {
         <div className="footer-section">
             <Container>
                 <Row className="text-white py-4">
+
                     <Col xs={6} md={3}>
                         <h5 className="mb-3">About MediCare</h5>
                         <p className="text-white-50">MediCare has all the characteristics of a world-class hospital with wide range of services and specialists, equipments , technology and service quality.</p>
@@ -56,13 +57,8 @@ const Footer = () => {
                                 <span>Xray & CT Scan</span>
                             </NavLink>
                         </p>
-
-
-
-
-
-
                     </Col>
+
                     <Col xs={6} md={3}>
                         <h5 className="mb-3">Latest News & Tips</h5>
                         <div className="news-item text-white-50">

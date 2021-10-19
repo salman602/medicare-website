@@ -23,6 +23,7 @@ const Header = () => {
                     <span className="text-dark">Medi Care</span>
                 </Navbar.Brand>
                 <Navbar.Toggle style={{ color: 'black' }} aria-controls="responsive-navbar-nav" />
+
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto">
                         <HashLink className="menu-item" to="/home">Home</HashLink>
@@ -31,6 +32,7 @@ const Header = () => {
                         <HashLink className="menu-item" to="/home#doctors">Doctors</HashLink>
                         <HashLink className="menu-item" to="/home#news">News</HashLink>
                     </Nav>
+
                     <Nav>
                         <NavLink to="/signup" className="mx-2">
                             <Button className="btn btn-info bg-transparent rounded-pill">Sign up</Button>
@@ -42,15 +44,8 @@ const Header = () => {
                         </NavLink> : <NavLink to="/login">
                             <Button className="btn btn-danger rounded-pill">login</Button>
                         </NavLink>}
-
-                        {/* {user?.email &&
-                            <img
-                                src={user?.photoURL} alt="" width="40" height="40" />
-                        } */}
-
-
-
                     </Nav>
+
                 </Navbar.Collapse>
             </Container>
         </Navbar>

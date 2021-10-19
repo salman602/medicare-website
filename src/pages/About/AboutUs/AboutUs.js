@@ -32,9 +32,7 @@ const AboutUs = () => {
                     </Col>
                     <Col xs={10} md={8}>
                         <div>
-
                             <iframe title="medicare" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14607.826239367134!2d90.36769211941065!3d23.748928444167614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bfa6f9bb28db%3A0xcfa3bd3579e51a32!2sHospital%2027%20Plus!5e0!3m2!1sen!2sbd!4v1634642623584!5m2!1sen!2sbd" width="600" height="320" allowfullscreen="" loading="lazy"></iframe>
-
                         </div>
                     </Col>
                 </Row>

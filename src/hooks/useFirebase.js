@@ -2,7 +2,6 @@ import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, signO
 import { useState, useEffect } from "react";
 import firebaseInitializer from "../Firebase/firebase.init";
 
-
 firebaseInitializer();
 
 const useFirebase = () => {
@@ -27,8 +26,7 @@ const useFirebase = () => {
     };
 
     const handleSignUp = (e) => {
-        e.preventDefault()
-
+        e.preventDefault();
         // password validation
         if (password.length < 8) {
             setError('Password must be at least 8 charecter long.');
@@ -43,7 +41,7 @@ const useFirebase = () => {
                 updateUserInfo();
             })
             .catch(err => setError(err.message));
-    }
+    };
 
     // update user information (set user's displayName)
     const updateUserInfo = () => {
@@ -53,7 +51,7 @@ const useFirebase = () => {
             .catch((error) => {
                 setError(error.message)
             });
-    }
+    };
 
     const signInUsingEmailAndPassword = () => {
         signInWithEmailAndPassword(auth, email, password)
@@ -61,7 +59,6 @@ const useFirebase = () => {
                 setUser(result.user)
             })
             .catch(err => setError(err.message))
-
     };
 
     // google sign in method

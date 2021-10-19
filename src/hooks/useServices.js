@@ -6,7 +6,6 @@ const useServices = () => {
         fetch('/services.json')
             .then(res => res.json())
             .then(data => setServices(data))
-
     }, []);
     return [services]
 };

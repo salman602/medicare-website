@@ -7,7 +7,6 @@ const DoctorDetails = () => {
     const [singleDoctor, setSingleDoctor] = useState({});
     const { doctorId } = useParams();
     const [doctors] = useDoctors();
-    // console.log(services);
 
     useEffect(() => {
         const filteredService = doctors.filter(doctor => doctor?.id === doctorId);

@@ -4,7 +4,6 @@ import Doctors from '../Doctors/Doctors';
 import News from '../News/News';
 import Services from '../Services/Services';
 
-
 const Home = () => {
     return (
         <div>

@@ -38,7 +38,9 @@ const Login = () => {
                     <Button onClick={signInUsingEmailAndPassword} className="w-100 mt-3" variant="danger" type="submit">
                         Login
                     </Button>
+
                     <p className="text-center text-danger mt-1">or Login using</p>
+
                     <Container>
                         <Row>
                             <Col xs={6} md={4}>
