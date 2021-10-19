@@ -22,8 +22,8 @@ const Banner = () => {
                                 <Col xs={12} sm={11} md={8}>
                                     <h2>What Makes us Better, Makes you Better</h2>
                                     <p className="text-dark">Best is an endpoint; a place where improvement tends to slow. That’s why Medi Care strives to be better.</p>
-                                    <Button variant="outline-danger" className="btn text-white rounded-2 me-2">Our Departments</Button>
-                                    <Button variant="outline-info" className="btn text-black rounded-2 ms-2">Our Doctors</Button>
+                                    <Button variant="danger" className="btn text-white rounded-2 me-2">Our Departments</Button>
+                                    <Button variant="info" className="btn text-black rounded-2 ms-2">Our Doctors</Button>
                                 </Col>
                                 <Col sm={1} md={4}></Col>
                             </Row>
@@ -64,8 +64,8 @@ const Banner = () => {
                                 <Col xs={12} sm={11} md={8}>
                                     <h2>What Makes us Better, Makes you Better</h2>
                                     <p>Best is an endpoint; a place where improvement tends to slow. That’s why Medi Care strives to be better.</p>
-                                    <Button variant="outline-danger" className="btn text-white rounded-2 me-2">Our Departments</Button>
-                                    <Button variant="outline-info" className="btn text-black rounded-2 ms-2">Our Doctors</Button>
+                                    <Button variant="danger" className="btn text-white rounded-2 me-2">Our Departments</Button>
+                                    <Button variant="info" className="btn text-black rounded-2 ms-2">Our Doctors</Button>
                                 </Col>
 
                             </Row>
